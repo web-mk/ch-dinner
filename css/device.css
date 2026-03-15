@@ -1,0 +1,562 @@
+/* Desktop */
+@media only screen and (min-width: 1250px) and (max-width: 1480px) {
+    .container {
+        width: auto;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    /* Fonts */
+    h1 {
+        font-size: 3.25rem;
+    }
+    .hero_heading h1 {
+        font-size: 8rem;
+    }
+    h1.h_head span {
+        font-size: 11rem;
+    }
+    h2 {
+        font-size: 2.8rem;
+    }
+    h3 {
+        font-size: 2.2rem;
+    }
+    h4 {
+        font-size: 1.55rem;
+    }
+    h5, .footer_text h5 a {
+        font-size: 1.325rem;
+    }
+    a, h6, #formContainer #input_2 {
+        font-size: 1.1rem;
+    }
+
+    /* Hero */
+    .h_head img {
+        width: 165px;
+    }
+
+    /* Program */
+    .entertainment_items {
+        width: 60%;
+    }
+
+    /* Co Chair */
+    .co_chair_items {
+        gap: 36px;
+    }
+
+    /* Form */
+    #formContainer .form-label-left, #formContainer #id_11 .form-checkbox-item label span, #formContainer .form-input .form-radio-item label {
+        font-size: 1.1rem!important;
+    }
+    #formContainer .form-label-left label {
+        width: 68%;
+    }
+    .form-error-message {
+        font-size: 1.1rem!important;
+    }
+}
+
+/* Laptop */
+@media only screen and (min-width: 900px) and (max-width: 1249px) {
+    .container {
+        width: auto;
+        max-width: 100%;
+        margin: 0 30px;
+    }
+
+    /* Fonts */
+    h1 {
+        font-size: 3.1rem;
+    }
+    .hero_heading h1 {
+        font-size: 7.5rem;
+    }
+    h1.h_head span {
+        font-size: 10.25rem;
+    }
+    h2 {
+        font-size: 2.5rem;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+    h4 {
+        font-size: 1.45rem;
+    }
+    .committee_name h4 {
+        font-size: 1.35rem;
+    }
+    h5, .footer_text h5 a {
+        font-size: 1.2rem;
+    }
+    a, h6, #formContainer #input_2 {
+        font-size: 1.05rem!important;
+    }
+
+    /* Hero */
+    .h_head img {
+        width: 160px;
+    }
+    .hero_btm_heading {
+        width: 50%;
+    }
+
+    /* Honor */
+    .honor_items {
+        margin: 0 -20px;
+    }
+    .honor_box {
+        margin: 0 20px;
+    }
+
+    /* Program */
+    .entertainment_items {
+        width: 70%;
+    }
+
+    /* Co Chair */
+    .co_chair_items, .co_chair_name {
+        gap: 10px 20px;
+    }
+    .co_chair_name h4 {
+        margin-top: -20px;
+    }
+
+    /* Support */
+    .support_items .col_3 {
+        width: 33.33%;
+    }
+
+    /* Form */
+    #formContainer .form-label-left, #formContainer #id_11 .form-checkbox-item label span, #formContainer .form-input .form-radio-item label {
+        font-size: 1.05rem!important;
+    }
+    #formContainer .form-label-left label {
+        width: 68%;
+    }
+    .form-error-message {
+        font-size: 1.05rem!important;
+    }
+    #formContainer .form-sub-label, #formContainer .form-input .form-checkbox-item label {
+        font-size: 0.9rem!important;
+    }
+    #formContainer .form-input .form-checkbox-item label {
+        width: 60%;
+    }
+}
+
+/* Ipad pros */
+@media only screen and (min-width: 900px) and (max-width: 1024px) {
+    /* Hero */
+    .h_head img {
+        width: 160px;
+    }
+    .hero_btm_heading {
+        width: 60%;
+    }
+    h4 {
+        font-size: 1.35rem;
+    }
+    h5 {
+        font-size: 1.3rem;
+    }
+
+    /* Honor */
+    .honor_items {
+        margin: 0 -12px;
+    }
+    .honor_box {
+        margin: 0 12px;
+    }
+    .honor_heading::before, .honor_heading::after {
+        width: 40%;
+    }
+
+    /* Program */
+    .entertainment_items {
+        width: 75%;
+    }
+    .line {
+        margin-left: 25px;
+    }
+
+    .mission_img {
+        width: 200px;
+    }
+    .support_items .col_3 {
+        width: 33.33%;
+    }
+    .support_box_items {
+        padding: 25px;
+        padding-bottom: 70px;
+    }
+    .fund_options {
+        left: 25px;
+        width: calc(100% - 50px);
+    }
+    .radio_option {
+        font-size: 0.9rem;
+    }
+    
+
+    /* Form */
+    #formContainer .form-label-left {
+        flex: 0 0 30%!important;
+    }
+    #formContainer #id_11 .form-checkbox-item label {
+        flex-direction: column!important;
+        gap: 2px 0!important;
+    }
+    #formContainer #label_input_11_0::after, #formContainer #label_input_11_1::after, #formContainer #label_input_11_2::after, #formContainer #label_input_11_3::after, #formContainer #label_input_11_4::after, #formContainer #label_input_11_5::after, #formContainer #label_input_11_6::after, #formContainer #label_input_11_7::after, #formContainer #label_input_11_8::after {
+        position: relative!important;
+        left: 0!important;
+    }
+}
+
+/* Ipad Mini */
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+    .container {
+        width: auto;
+        max-width: 100%;
+        margin: 0 20px;
+    }
+
+    /* Fonts */
+    h1 {
+        font-size: 3rem;
+    }
+    .hero_heading h1 {
+        font-size: 6.5rem;
+    }
+    h1.h_head span {
+        font-size: 9rem;
+    }
+    h2 {
+        font-size: 2.35rem;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+    h4 {
+        font-size: 1.4rem;
+    }
+    .committee_name h4 {
+        font-size: 1.3rem;
+    }
+    h5, .footer_text h5 a {
+        font-size: 1.1rem;
+    }
+    h5.ivy {
+        font-size: 1.3rem;
+    }
+    a, h6, #formContainer #input_2 {
+        font-size: 1.05rem!important;
+    }
+
+    /* Hero */
+    .h_head img {
+        width: 130px;
+    }
+    .hero_btm_heading {
+        width: 70%;
+    }
+
+    /* Honor */
+    .honor_items {
+        margin: 0 -10px;
+    }
+    .honor_box {
+        margin: 0 10px;
+    }
+    .honor_heading::before, .honor_heading::after {
+        width: 38%;
+    }
+
+    /* Program */
+    .entertainment_items {
+        width: 85%;
+    }
+    .date_items .col_gap {
+        margin-right: 40px!important;
+    }
+    .line {
+        margin-left: 20px;
+    }
+
+    /* Co Chair */
+    .co_chair_items, .co_chair_name {
+        gap: 8px 10px;
+    }
+    .co_chair_name h4 {
+        margin-top: -20px;
+    }
+
+    /* Support */
+    .support_box_items {
+        padding: 30px;
+        padding-bottom: 70px;
+    }
+    .support_items .col_3 {
+        width: 50%;
+    }
+    .fund_options {
+        left: 30px;
+        width: calc(100% - 60px);
+    }
+
+    /* Mission */
+    .mission_img img {
+        width: 180px;
+    }
+
+    /* Form */
+    #formContainer .form-label-left, #formContainer #id_11 .form-checkbox-item label span, #formContainer .form-input .form-radio-item label {
+        font-size: 1rem!important;
+    }
+    #formContainer .form-label-left label {
+        width: 68%;
+    }
+    .form-error-message {
+        font-size: 1rem!important;
+    }
+    #formContainer .form-sub-label, #formContainer .form-input .form-checkbox-item label {
+        font-size: 0.9rem!important;
+    }
+    #formContainer .form-input .form-checkbox-item label {
+        width: 90%;
+    }
+    #formContainer .form-label-left {
+        flex: 0 0 30%!important;
+    }
+    #formContainer #id_11 .form-checkbox-item label {
+        flex-direction: column!important;
+        gap: 2px 0!important;
+    }
+    #formContainer #label_input_11_0::after, #formContainer #label_input_11_1::after, #formContainer #label_input_11_2::after, #formContainer #label_input_11_3::after, #formContainer #label_input_11_4::after, #formContainer #label_input_11_5::after, #formContainer #label_input_11_6::after, #formContainer #label_input_11_7::after, #formContainer #label_input_11_8::after {
+        position: relative!important;
+        left: 0!important;
+    }
+}
+
+/* Mobile View */
+@media only screen and (min-width: 250px) and (max-width: 767px) {
+    .container {
+        width: auto;
+        max-width: 100%;
+        margin: 0 1rem;
+    }
+
+    /* Fonts */
+    h1 {
+        font-size: 2.2rem;
+    }
+    .hero_heading h1 {
+        font-size: 3.5rem;
+    }
+    h1.h_head span {
+        font-size: 4.5rem;
+    }
+    h2 {
+        font-size: 1.7rem;
+    }
+    h2.ivy {
+        letter-spacing: 0!important;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+    h4 {
+        font-size: 1.25rem;
+        letter-spacing: 0!important;
+    }
+    .committee_name h4 {
+        font-size: 1.2rem;
+    }
+    h5, .footer_text h5 a {
+        font-size: 1.07rem;
+        line-height: 1.15;
+    }
+    h5.ivy {
+        font-size: 1.3rem;
+    }
+    a, h6, #formContainer #input_2 {
+        font-size: 0.975rem!important;
+    }
+    .col_4, .col_3, .col_8, .col_6 {
+        width: 100%;
+    }
+
+    /* Hero */
+    .h_head img {
+        width: 90px;
+    }
+    .hero_btm_heading {
+        width: 100%;
+    }
+    .hero_top_heading h5 div {
+        display: none;
+    }
+    .hero_top_heading h5 br {
+        display: block;
+    }
+    .hero_top_heading h5 {
+        position: relative;
+        padding-bottom: 10px;
+    }
+    .hero_top_heading h5::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 20px;
+        height: 2px;
+        background: var(--primaryDark);
+    }
+    .hero_mid_heading h2 {
+        font-size: 1.25rem;
+    }
+
+    /* Honor */
+    .honor_items {
+        margin: 0 0px;
+        flex-direction: column;
+    }
+    .honor_box {
+        margin: 30px 0px;
+    }
+    .honor_heading::before, .honor_heading::after {
+        width: 28%;
+    }
+    .honor_name {
+        margin: 3px 0;
+    }
+
+    /* Program */
+    #program .flexbox {
+        flex-direction: column;
+    }
+    .entertainment_items {
+        width: 100%;
+        margin-top: 60px;
+    }
+    .date_items .col_gap {
+        margin-right: 00px!important;
+    }
+    .line {
+        margin-left: 20px;
+    }
+    .date_items, .venue_items {
+        width: 100%;
+    }
+
+    /* Co Chair */
+    .co_chair_items, .co_chair_name {
+        gap: 8px 10px;
+    }
+    .co_chair_name h4 {
+        margin-top: -20px;
+        display: none;
+    }
+
+    /* Committee */
+    .committee_name .dot {
+        display: none;
+    }
+    .host_committee_items {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    /* Support */
+    .support_items {
+        flex-direction: column;
+    }
+    .support_box_items {
+        padding: 30px 20px;
+        padding-bottom: 70px;
+    }
+    .fund_options {
+        left: 20px;
+        width: calc(100% - 50px);
+    }
+
+    /* Mission */
+    .mission_items {
+        flex-direction: column;
+    }
+    .mission_img img {
+        width: 120px;
+        margin-bottom: 30px;
+    }
+
+    /* Form */
+    #formContainer .form-label-left, #formContainer #id_11 .form-checkbox-item label span, #formContainer .form-input .form-radio-item label {
+        font-size: 0.95rem!important;
+    }
+    #formContainer .form-label-left label {
+        width: 100%;
+    }
+    .form-error-message {
+        font-size: 1rem!important;
+    }
+    #formContainer .form-sub-label, #formContainer .form-input .form-checkbox-item label {
+        font-size: 1rem!important;
+        line-height: 1;
+    }
+    #formContainer .form-input .form-checkbox-item label {
+        width: 90%;
+        line-height: 1!important;
+    }
+    #formContainer .form-label-left {
+        flex: 0 0 50%!important;
+        width: 150px!important;
+        margin-bottom: 10px;
+    }
+    #formContainer #id_11 .form-checkbox-item label {
+        flex-direction: column!important;
+        gap: 2px 0!important;
+    }
+    #formContainer #label_input_11_0::after, #formContainer #label_input_11_1::after, #formContainer #label_input_11_2::after, #formContainer #label_input_11_3::after, #formContainer #label_input_11_4::after, #formContainer #label_input_11_5::after, #formContainer #label_input_11_6::after, #formContainer #label_input_11_7::after, #formContainer #label_input_11_8::after {
+        position: relative!important;
+        left: 0!important;
+    }
+
+    #formContainer .form-line {
+        flex-direction: column;
+    }
+    #formContainer .form-input {
+        display: flex!important;
+        gap: 20px!important;
+    }
+    .form-address-table tr {
+        flex-direction: column!important;
+        gap: 30px;
+    }
+    #formContainer #label_input_11_0::after, #formContainer #label_input_11_1::after, #formContainer #label_input_11_2::after, #formContainer #label_input_11_3::after, #formContainer #label_input_11_4::after, #formContainer #label_input_11_5::after, #formContainer #label_input_11_6::after, #formContainer #label_input_11_7::after, #formContainer #label_input_11_8::after {
+        font-size: 0.9rem!important;
+    }
+    input#input_12, input#input_13, div#cid_14 input {
+        width: 100% !important;
+    }
+    div#cid_16 {
+        flex-direction: column!important;
+        align-items: flex-start!important;
+    }
+
+    /* Footer */
+    .footer_items {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .footer_text {
+        flex-direction: column;
+    }
+    .footer_text h5 {
+        margin-bottom: 10px;
+        font-size: 0.975rem;
+    }
+}
