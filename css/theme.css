@@ -698,7 +698,7 @@ li#cid_1 {
     letter-spacing: 0!important;
     padding: 0!important;
 }
-#formContainer .form-line {
+#formContainer .form-line:not(.form-field-hidden) {
     border: none!important;
     display: flex!important;
     align-items: flex-start!important;
@@ -756,7 +756,7 @@ table.form-address-table {
     position: relative;
     width: 100%;
 }
-.form-address-table tr {
+.form-address-table tr:not(.hide) {
     display: flex;
     align-items: flex-start;
     margin-bottom: 30px;
