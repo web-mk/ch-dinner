@@ -979,3 +979,8 @@ footer .sec_gap {
     color: var(--silver)!important;
     text-transform: inherit!important;
 }
+
+
+#support {
+    display: none;
+}
