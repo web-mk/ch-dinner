@@ -810,8 +810,6 @@ li#cid_10 {
     width: 100%!important;
 }
 #formContainer #label_input_11_0::after, #formContainer #label_input_11_1::after, #formContainer #label_input_11_2::after, #formContainer #label_input_11_3::after, #formContainer #label_input_11_4::after, #formContainer #label_input_11_5::after, #formContainer #label_input_11_6::after, #formContainer #label_input_11_7::after, #formContainer #label_input_11_8::after {
-    position: absolute!important;
-    left: 33.33%!important;
     font-size: 1rem!important;
     font-weight: 300!important;
     font-family: var(--font-body) !important;
@@ -820,6 +818,13 @@ li#cid_10 {
     line-height: 1!important;
     font-style: normal!important;
     margin: 0!important;
+}
+
+@media (min-width: 768px) {
+  #formContainer #label_input_11_0::after, #formContainer #label_input_11_1::after, #formContainer #label_input_11_2::after, #formContainer #label_input_11_3::after, #formContainer #label_input_11_4::after, #formContainer #label_input_11_5::after, #formContainer #label_input_11_6::after, #formContainer #label_input_11_7::after, #formContainer #label_input_11_8::after {
+    position: absolute!important;
+    left: 33.33%!important;
+  }
 }
 #formContainer #id_11 .form-checkbox-item label span {
     font-size: 1.2rem!important;
