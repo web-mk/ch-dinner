@@ -1,7 +1,9 @@
+@import url("https://use.typekit.net/xek1ojk.css");
+
 /* Fonts */
 @font-face {
-    font-family: 'Arial';
-    src: url('../fonts/Arial/Arial.woff') format("woff");
+    font-family: Arial;
+    src: url('../fonts/Arial.woff') format("woff");
     font-weight: 400;
 }
 @font-face {
@@ -71,12 +73,14 @@
 
     --primaryDark: var(--charocal);
     --primaryLight: var(--ivorycream);
+
+    --font-body: 'acumin-variable', Arial, sans-serif;
 }
 html {
     line-height: 1.4;
     -webkit-text-size-adjust: 100%;;
     font-size: 100%;
-    font-family: 'Arial', sans-serif;
+    font-family: var(--font-body);
     scroll-behavior: auto;
 }
 body {
@@ -84,7 +88,7 @@ body {
     box-sizing: border-box;
     font-size: 1rem;
     font-weight: 400;
-    font-family: 'Arial', sans-serif;
+    font-family: var(--font-body);
     width: 100%;
     background-color: var(--primaryLight)!important;
     color: var(--primaryDark);;
@@ -114,7 +118,7 @@ svg {
     display: block;
 }
 a {
-    font-family: 'Arial', sans-serif;
+    font-family: var(--font-body);
     text-decoration: none;
     background-color: transparent;
     text-transform: uppercase;
@@ -131,7 +135,7 @@ a {
 h1 {
     color: var(--silver);
     font-size: 3.5rem;
-    font-family: 'Arial', sans-serif;
+    font-family: var(--font-body);
     font-weight: 400;
 }
 h1.ivy {
@@ -155,7 +159,7 @@ h2.ivy {
 }
 h3 {
     font-size: 2.4rem;
-    font-family: 'Arial', sans-serif;
+    font-family: var(--font-body);
     font-weight: 400;
     letter-spacing: -1px;
 }
@@ -168,7 +172,7 @@ h3.ivy {
 }
 h4 {
     font-size: 1.7rem;
-    font-family: 'Arial', sans-serif;
+    font-family: var(--font-body);
     font-weight: 400;
     letter-spacing: -1px;
     line-height: 1.15;
@@ -182,7 +186,7 @@ h4.ivy {
 }
 h5 {
     font-size: 1.45rem;
-    font-family: 'Arial', sans-serif;
+    font-family: var(--font-body);
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: -0.3px;
@@ -197,7 +201,7 @@ h5.ivy {
 }
 h6 {
     font-size: 1.15rem;
-    font-family: 'Arial', sans-serif;
+    font-family: var(--font-body);
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: -0.3px;
@@ -667,7 +671,7 @@ h1.h_head span {
     background: none!important;
     border: none!important;
     box-shadow: none!important;
-    font-family: 'IvyOra Display', 'Arial', sans-serif!important;
+    font-family: 'IvyOra Display', var(--font-body), sans-serif!important;
     color: var(--primaryDark)!important;
 }
 li#cid_1 {
@@ -707,7 +711,7 @@ li#cid_1 {
 }
 #formContainer .form-label-left {
     font-size: 1.2rem!important;
-    font-family: 'Arial', sans-serif!important;
+    font-family: var(--font-body) !important;
     font-weight: 400!important;
     color: var(--silver)!important;
     padding: 0!important;
@@ -737,14 +741,14 @@ span.form-sub-label-container {
     border-bottom: 1px solid var(--charocal)!important;
     padding: 16px!important;
     color: var(--primaryDark)!important;
-    font-family: 'Arial', sans-serif!important;
+    font-family: var(--font-body) !important;
     font-weight: 400!important;
     font-size: 1rem!important;
     margin-bottom: 4px!important;
 }
 #formContainer .form-sub-label {
     color: var(--silverlight)!important;
-    font-family: 'Arial', sans-serif!important;
+    font-family: var(--font-body) !important;
     font-weight: 300!important;
     font-size: 1rem!important;
     margin-top: 2px!important;
@@ -770,7 +774,7 @@ td {
 }
 #formContainer .form-input .form-checkbox-item label {
     color: var(--silver)!important;
-    font-family: 'Arial', sans-serif!important;
+    font-family: var(--font-body) !important;
     font-weight: 300!important;
     font-size: 1rem!important;
     margin-top: 2px!important;
@@ -810,7 +814,7 @@ li#cid_10 {
     left: 33.33%!important;
     font-size: 1rem!important;
     font-weight: 300!important;
-    font-family: 'Arial', sans-serif!important;
+    font-family: var(--font-body) !important;
     color: var(--silver)!important;
     letter-spacing: -0.3px;
     line-height: 1!important;
@@ -820,7 +824,7 @@ li#cid_10 {
 #formContainer #id_11 .form-checkbox-item label span {
     font-size: 1.2rem!important;
     font-weight: 400!important;
-    font-family: 'Arial', sans-serif!important;
+    font-family: var(--font-body) !important;
     color: var(--silver)!important;
     text-transform: uppercase;
     letter-spacing: -0.3px;
@@ -839,7 +843,7 @@ li#cid_10 {
 #formContainer .form-input .form-radio-item label {
     font-size: 1.2rem!important;
     font-weight: 400!important;
-    font-family: 'Arial', sans-serif!important;
+    font-family: var(--font-body) !important;
     color: var(--silver)!important;
     letter-spacing: -0.3px;
     line-height: 1!important;
@@ -931,7 +935,7 @@ select#input_15_country {
     background: var(--antiqueGold)!important;
     color: var(--charocal)!important;
     font-size: 1.2rem!important;
-    font-family: 'Arial', sans-serif!important;
+    font-family: var(--font-body) !important;
     font-weight: 400!important;
     text-transform: capitalize!important;
     letter-spacing: normal!important;
