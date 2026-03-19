@@ -456,6 +456,9 @@
     /* Co Chair */
     .co_chair_items, .co_chair_name {
         gap: 8px 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
     }
     .co_chair_name h4 {
         margin-top: -20px;
