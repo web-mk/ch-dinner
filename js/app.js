@@ -32,3 +32,14 @@ boxes.forEach(box => {
   });
 
 });
+
+
+
+
+window.addEventListener("message", (event) => {
+  if (event.data.type === "scrollTo") {
+    document
+      .getElementById(event.data.id)
+      ?.scrollIntoView({ behavior: "smooth" });
+  }
+});
