@@ -37,6 +37,7 @@ boxes.forEach(box => {
 
 
 window.addEventListener("message", (event) => {
+  console.log("Received message from parent:", event.data);
   if (event.data.type === "scrollTo") {
     document
       .getElementById(event.data.id)
