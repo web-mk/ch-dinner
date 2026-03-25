@@ -1,11 +1,11 @@
 @import url("https://use.typekit.net/xek1ojk.css");
 
 /* Fonts */
-@font-face {
+/* @font-face {
     font-family: Arial;
     src: url('../fonts/Arial.woff') format("woff");
     font-weight: 400;
-}
+} */
 @font-face {
     font-family: "Monalisa Script";
     src: url(../fonts/Monalisa/Monalisa-Script.woff) format("woff");
