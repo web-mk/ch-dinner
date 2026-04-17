@@ -720,10 +720,14 @@ li#cid_1 {
     color: var(--silver)!important;
     padding: 0!important;
     letter-spacing: -0.3px!important;
-    width: 22%!important;
     flex: 0 0 22%!important;
     display: flex!important;
     flex-direction: column!important;
+}
+@media screen and (min-width: 541px) {
+    #formContainer .form-label-left {
+        width: 22%!important;
+    }
 }
 #formContainer .form-required {
     margin-left: 2px!important;
