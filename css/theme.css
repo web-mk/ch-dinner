@@ -897,8 +897,12 @@ input#input_12, input#input_13, input#input_22 {
 #label_14 .label-message {
     display: none!important;
 }
+@media screen and (min-width: 541px) {
+    #formContainer .form-label-left label {
+        width: 60%;
+    }
+}
 #formContainer .form-label-left label {
-    width: 60%;
     line-height: 1.1;
 }
 div#cid_14 input {
