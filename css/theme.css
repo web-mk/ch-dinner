@@ -704,7 +704,7 @@ li#cid_1 {
 }
 #formContainer .form-line:not(.form-field-hidden) {
     border: none!important;
-    display: flex!important;
+    display: flex;
     align-items: flex-start!important;
     padding: 0px 0!important;
     padding-bottom: 30px!important;
