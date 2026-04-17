@@ -872,9 +872,9 @@ li#cid_10 {
 #formContainer .form-input input.form-radio, #formContainer .form-input input.form-checkbox {
     border-color: var(--silver)!important;
 }
-#id_12 {
+/* #id_12 {
     display: none!important;
-}
+} */
 label.label-message {
     font-size: 1rem;
     font-style: italic;
