@@ -882,9 +882,12 @@ label.label-message {
     line-height: 1.1;
     font-weight: 300!important;
 }
+input#input_12, input#input_13, input#input_22 {
+    width: 100% !important;
+}
 @media screen and (min-width: 541px) {
     input#input_12, input#input_13, input#input_22 {
-        width: 45%!important;
+        width: 45% !important;
     }
 }
 #cid_18 .form-single-column {
