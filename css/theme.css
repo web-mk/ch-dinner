@@ -704,10 +704,14 @@ li#cid_1 {
 }
 #formContainer .form-line:not(.form-field-hidden) {
     border: none!important;
-    display: flex;
     align-items: flex-start!important;
     padding: 0px 0!important;
     padding-bottom: 30px!important;
+}
+@media screen and (min-width: 541px) {
+    #formContainer .form-line:not(.form-field-hidden) {
+        display: flex;
+    }
 }
 #formContainer .form-label-left {
     font-size: 1.2rem!important;
